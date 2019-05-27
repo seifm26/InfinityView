@@ -12,6 +12,7 @@
 		31E4F49F228C24A800685F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E4F49D228C24A800685F95 /* Main.storyboard */; };
 		31E4F4A1228C24BB00685F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E4F4A0228C24BB00685F95 /* Assets.xcassets */; };
 		31E4F4A4228C24BB00685F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E4F4A2228C24BB00685F95 /* LaunchScreen.storyboard */; };
+		31E4F4AC228C256800685F95 /* InfinityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4F4AB228C256800685F95 /* InfinityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		31E4F4A0228C24BB00685F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31E4F4A3228C24BB00685F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31E4F4A5228C24BB00685F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E4F4AB228C256800685F95 /* InfinityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				31E4F4A0228C24BB00685F95 /* Assets.xcassets */,
 				31E4F4A2228C24BB00685F95 /* LaunchScreen.storyboard */,
 				31E4F4A5228C24BB00685F95 /* Info.plist */,
+				31E4F4AB228C256800685F95 /* InfinityViewController.swift */,
 			);
 			path = InfinityView;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E4F4AC228C256800685F95 /* InfinityViewController.swift in Sources */,
 				31E4F49C228C24A800685F95 /* ViewController.swift in Sources */,
 				31E4F49A228C24A800685F95 /* AppDelegate.swift in Sources */,
 			);
